@@ -1,0 +1,97 @@
+<html>
+  <title>MY INTRO</title>
+  <head>
+    <link rel="stylesheet" href="my.css" />
+    <script src="my.js"></script>
+  </head>
+  <body>
+    <fieldset>
+      <legend><h1>My BIO</h1></legend>
+      <hr />
+      <header>Vatsal Shah</header>
+      Mail:<span id="mail">shahvatsal2003@gmail.com</span>
+      <hr />
+      <div id="all">
+        <div id="navigation">
+          <label
+            ><input
+              type="checkbox"
+              name="about me"
+              id="about"
+              onclick="change1();"
+            />About me</label
+          >
+          <p id="c1"></p>
+          <label
+            ><input
+              type="checkbox"
+              name="study"
+              id="study"
+              onclick="change2();"
+            />Acadamics</label
+          >
+          <p id="c2"></p>
+          <label
+            ><input
+              type="checkbox"
+              name="hobby"
+              id="hobby"
+              onclick="change3();"
+            />Hobby</label
+          >
+          <p id="c3"></p>
+        </div>
+
+        <div id="image">
+          <img src="kl rahul.jpg" alt="could not load" id="image1" />
+        </div>
+      </div>
+      <hr />
+      <h1>Certificates</h1>
+
+      <img src="js cert.PNG" alt="'could not load" id="i1" /><img
+        src="py cert.PNG"
+        alt="'could not load"
+        id="i2"
+      />
+      <!-- <img src="kl rahul.jpg" alt="could not load" id="image"> -->
+      <hr />
+      <div id="b">
+        <div id="b1">
+          <h1>Skills</h1>
+
+          <ul>
+            <li>HAVE EXPERINECE IN JAVA(BLUEJ)</li>
+            <li>HAVE EXPERIENCE IN SOLVING BASIC OF PYTHON</li>
+            <li></li>
+          </ul>
+        </div>
+        <div id="b2">
+          <h1>Projects</h1>
+          <ul>
+            <li>Hand Cricket Game</li>
+            <li>Virtual Stock Market Stimulator</li>
+          </ul>
+        </div>
+        <hr />
+      </div>
+      <footer id="ft">
+        Connect with me!<br />
+        <a href="https://www.instagram.com/vatsal_shah41/" target="_blank"
+          ><img src="vatsal_shah41_qr.png" alt="sorry" id="qr"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/vatsal-shah-65b1a0231"
+          target="_blank"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+            id="ln"
+        /></a>
+        <a href="https://github.com/vatsalshah041" target="_blank"
+          ><img
+            src="data:image/png;base64,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"
+            id="gi"/></a>
+      </footer>
+    </fieldset>
+  </body>
+</html>
