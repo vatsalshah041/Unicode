@@ -37,6 +37,7 @@ function check()
                     alert("The two emails must match!!");
                     return false;
                 }
+                
 }
 function check1()
 {
@@ -45,4 +46,9 @@ function check1()
     {
         console.log("true");
     }
+}
+function check2()
+{
+    document.getElementById('ty').innerHTML='hii';
+    console.log('heyeye');
 }
