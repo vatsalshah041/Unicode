@@ -1,0 +1,12 @@
+body{
+    background-color: aquamarine;
+}
+#i{
+    width: 5%;
+}
+#dr{
+    width: 30px;
+}
+table,th,tr,td{
+    border: solid 1px;   
+}
