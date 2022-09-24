@@ -5,7 +5,7 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-        <link rel="stylesheet" href="index1.css">
+        <link rel="stylesheet" href="index.css">
 
 </head>
 
@@ -46,12 +46,13 @@
             </tbody>
         </table>
         <form>
-            <label>Id No.:(Between 1 and 228)
-                <input type="text" name="" id="userinput" onchange="returnText();"></label>
+            <label class="fs-5">Enter the key corresponding to Country whose graph you want to create 
+                     <input type="text" name=""  id="userinput"></label>
         </form>
-        <button type="button" class="btn btn-outline-warning" onclick="generate1();">Generate Bar Graph</button>
-        <button type="button" class="btn btn-outline-warning" onclick="generate();">Generate Pie Graph</button>
-        <canvas id="myChart" width="400" height="400"></canvas>
+        <button id="sub"class='fs-3 fw-bold' onclick="returnText();">Submit</button>
+        <button type="button" class="btn btn-lg btn-outline-info" onclick="generate1();">Generate Bar Graph</button>
+        <button type="button" class="btn btn-lg btn-outline-info" onclick="generate();">Generate Pie Graph</button>
+        <canvas id="myChart" width="300" height="300" style="height:100px ; width: 100px;"></canvas>
         <canvas id="myChart1" style="width:100%;max-width:600px"></canvas>
 
 
@@ -60,7 +61,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
-    <script src="index1.js"></script>
+    <script src="index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
     </script>
 </body>
