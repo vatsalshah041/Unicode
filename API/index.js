@@ -62,6 +62,8 @@ function returnText() {
         .then(function (data) {
             //console.log(d);
             let input = document.getElementById("userinput").value;
+            console.log('hi');
+            console.log(input);
             if (input < 1 || input > 228) {
                 alert('enter proper number');
             }
@@ -108,7 +110,7 @@ function generate1() {
                 console.log(yValues[a]);
             }
             //var barColors = ["red", "green"];
-            var barColors = ["red", "green", "blue", "orange", "brown", "aqua", "yellow", "brown", "grey"];
+            var barColors = [ "green", "blue", "orange", "brown", "aqua", "yellow", "brown", "grey"];
 
             new Chart("myChart", {
                 type: "bar",
