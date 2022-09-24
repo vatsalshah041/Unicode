@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine;
+    background-color:#f7e7fb;
 }
 #i{
     width: 5%;
@@ -9,4 +9,8 @@ body{
 }
 table,th,tr,td{
     border: solid 1px;   
+}
+#sub{
+    width:168px;
+    height:44px;
 }
